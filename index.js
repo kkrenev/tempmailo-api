@@ -23,7 +23,7 @@ function getReqVerif(html) {
 }
 
 function getAntiForgeryCookie(cookies) {
-    return cookies[1].split(";")[0] + ";";
+    return cookies[0].split(";")[0] + ";";
 }
 
 async function getEmails(email) {
